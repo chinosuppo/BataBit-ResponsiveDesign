@@ -268,7 +268,7 @@ main{
     width: 40px;
     height: 25px;
     top: -10px;
-    left: calc(50%-20px);
+    left: calc(50% - 20px);
     background: url('../assets/icons/batata.svg');
 }
 
@@ -309,7 +309,7 @@ main{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 
-.product-detail--card .icon-card{
+.clock{
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -317,21 +317,39 @@ main{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.clock{
     background-image: url('../assets/icons/clock.svg');
 }
 
 .eye{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url('../assets/icons/eye.svg');
 }
 
 .dollar{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url('../assets/icons/dollar-sign.svg');
 }
 
 .check{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url('../assets/icons/check-circle.svg');
 }
 
